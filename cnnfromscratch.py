@@ -75,4 +75,5 @@ for epoch in range(epochs):
             print(f"loss on index {ind} is {l.item():.4f}\n")
     print(f"average loss after epoch {epoch+1} is {total_loss/1000:.4f}\n")
     print(f"accuracy after epoch {epoch+1} is {correct/10}%\n")
-
+    #loss after 10 epochs=0.2133
+    #accuracy after 10 epochs=93.5%
