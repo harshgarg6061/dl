@@ -18,7 +18,7 @@ w_g2=(torch.randn(hid_dim,inp_dim)*0.01).requires_grad_()
 b_g2=(torch.zeros(inp_dim)).requires_grad_()
 params_g=(w_g1,b_g1,w_g2,b_g2)
 
-#weigths for degenrators
+#weigths for discriminators
 w_d1=(torch.randn(inp_dim,hid_dim)*0.01).requires_grad_()
 b_d1=(torch.zeros(hid_dim)).requires_grad_()
 w_d2=(torch.randn(hid_dim,1)*0.01).requires_grad_()
